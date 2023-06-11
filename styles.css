@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #d0cfcf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo {
+    color: #3c4490;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .boks {
+    color: navy;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background: linear-gradient(90deg, navy 50%, gray 0) var(--_p, 100%) / 200%
+      no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: 0.4s;
+  }
+  
+  .nav-link:hover {
+    --_p: 0%;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #0d1ca3;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  
+  #login {
+    background-color: #f5f5f5;
+    opacity: 60%;
+    color: gray;
+  }
+  
+  .cancel {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .middlep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+  
+  .middlep p {
+    font-size: 75px;
+    text-shadow: 5px 5px 5px gray;
+    font-weight: bold;
+  }
+  
+  .firsthero {
+    padding-right: 65%;
+    margin-left: 5%;
+    padding-top: 6%;
+  }
+  
+  .secondhero {
+    padding-top: 8%;
+    padding-right: 3%;
+    margin-left: 65%;
+  }
+  
+  .thirdhero {
+    padding-right: 65%;
+    margin-left: 5%;
+    padding-top: 6%;
+  }
+  
+  .faq {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 40px 0;
+  }
+  
+  .faq h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .faq-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(204, 209, 241);
+  }
+  
+  .faq-item h3 {
+    margin-top: 0;
+  }
+  
+  .faq-item p {
+    margin-bottom: 0;
+  }
+  
+  .flex-box {
+    width: 200px;
+    height: 200px;
+    background: rgb(226, 223, 223);
+    color: rgb(24, 24, 24);
+    font-size: 25px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .flex-boxtwo {
+    width: 200px;
+    height: 220px;
+    background: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-inline: 28%;
+    margin-top: 60px;
+    border: black;
+  }
+  
+  .pricingh2 {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .pricing {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    border: black;
+  }
+  
+  .pricing-table {
+    background-color: #fafafc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    height: 60%;
+    width: 40%;
+    margin: 8px;
+  }
+
+
+
+
+  .prvitext{
+    font-size: 45px;
+    font-weight: bold;
+    width: 30%;
+    padding-left: 10%;
+  }
+  .subtext{
+    width: 30%;
+    padding-left: 10%;
+  }
+  .freetrialbutton{
+    width: 30%;
+    padding-left: 10%;
+  }
+  .prvitextslika{
+    display: flex;
+    align-items: center;
+  }
+  #freet{
+    background-color: #0d1ca3;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .cancel{
+    width: 30%;
+  }
+  .pmark{
+    height: 5px;
+    width: 20px;
+    border-bottom: 1px solid blue;
+    border-left: 1px solid blue;
+    margin-right: 10px;
+    transform: rotate(315deg);
+  }
+  .mark{
+    display: flex;
+    align-items: center;
+  }
+  #register{
+    background-color: #0d1ca3;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  .wemail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .firsthero{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    padding-left: 1200px;
+  }
+  .left1hero{
+    width: 20%;
+    padding-left: 10%;
+  }
+  .rigth1hero{
+    width: 80%;
+  }
+  .secondhero{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    padding-right: 1200px;
+  }
+  .right2hero{
+    width: 50%;
+    padding-left: 10%;
+  }
+  .thirdhero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1200px;
+    width: 100%;
+  }
+  .left3hero{
+    width: 40%;
+  }
+  .right3hero{
+    padding-left: 10%;
+  }
+  .faqitem1up{
+    display: flex;
+    align-items:start;
+    justify-content:space-between;
+  }
+  .faqitem1more{
+    background-color: #8f87bb;
+    height: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .bar1{
+    height: 2px;
+    width: 60%;
+    background-color: #3c4490;
+  }
+  .bar2{
+    height: 2px;
+    width: 60%;
+    transform: rotate(90deg);
+    background-color: #3c4490;
+    margin-top: -2px;
+  }
+  .row{
+    display: flex;
+  }
+  .price{
+    font-weight: bold;
+  }
+  .col-md-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
